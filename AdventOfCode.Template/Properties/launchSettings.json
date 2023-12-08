@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "AdventOfCode.Template": {
+      "commandName": "Project"
+    },
+    "AdventOfCode.Template sample": {
+      "commandName": "Project",
+      "commandLineArgs": "sample"
+    },
+    "AdventOfCode.Template benchmark": {
+      "commandName": "Project",
+      "commandLineArgs": "bench"
+    }
+  }
+}

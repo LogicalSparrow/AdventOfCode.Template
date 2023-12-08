@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "AdventOfCode.Template",
+    "name": "Advent Of Code Template",
+    "shortName": "aoc",
+    "author": "Paul Etkin",
+    "sourceName": "AdventOfCode.Template",
+    "defaultName": "AdventOfCode.Year2023.Day1.Problem1",
+    "description": "A template for solving Advent Of Code problems",
+    "preferNameDirectory": true,
+    "classifications": [
+        "Console"
+    ],
+    "tags": {
+        "language": "C#",
+        "type": "solution"
+    },
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "condition": "(HostIdentifier == \"dotnetcli\" || HostIdentifier == \"dotnetcli-preview\")",
+                    "rename": {
+                        "AdventOfCode.Template.app.sln": "AdventOfCode.Template.sln",
+                        "README.AdventOfCode.Template.md": "README.md"
+                    }
+                }
+            ],
+            "exclude": [
+                "README.md",
+                ".vs/**",
+                ".template.config/**",
+                ".git/**",
+                ".github/**",
+                "PRCHECKLIST",
+                "**/bin/**",
+                "**/obj/**"
+            ]
+        }
+    ],
+    "guids": [
+        "2B9D4B48-C685-4943-B378-09872C8BFA0A",
+        "50D4C43F-640E-42DE-BD6E-A8D3702CDB08"
+    ]
+}
