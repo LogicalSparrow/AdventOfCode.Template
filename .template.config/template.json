@@ -38,6 +38,12 @@
             ]
         }
     ],
+    "symbols": {
+        "HostIdentifier": {
+            "type": "bind",
+            "binding": "HostIdentifier"
+        }
+    },
     "guids": [
         "2B9D4B48-C685-4943-B378-09872C8BFA0A",
         "50D4C43F-640E-42DE-BD6E-A8D3702CDB08"
